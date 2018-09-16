@@ -28,7 +28,7 @@ document.querySelector(".allNews").innerHTML = ""
 }
 
 //Fetch is a built in function in Javascript, it gets the data from the API and tranforms it into Javascript objects – JSON data.
-fetch(url)
+fetch(urlHero)
   .then(response => response.json())
   .then(recievedNews)
 
@@ -39,3 +39,11 @@ fetch(url)
     }
 
   document.querySelector(".heroButton").onclick = keyHero
+
+
+  const keySve = () => {
+    fetch(url)
+      .then(response => response.json())
+      .then(recievedNews)
+  }
+  document.querySelector(".heroSveButton").onclick = keySve

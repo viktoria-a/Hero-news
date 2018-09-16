@@ -1,5 +1,40 @@
  body {background-color: #D77B9A;}
 
+.text {
+	padding: 10px;
+  align: right;
+}
+a {
+   color: #666666;
+ }
+.heroSveButton
+  {
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+.heroButton
+{
+  border: none;
+  border-radius: 8px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
 .allNews {
 	display: flex;
 	flex-wrap: wrap;
@@ -21,12 +56,9 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-a {
-   color: #666666;
-}
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://assets.wordpress.envato-static.com/uploads/2016/03/little-girl-super-hero-concept-P7WEDPK.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("https://assets.wordpress.envato-static.com/uploads/2016/03/little-girl-super-hero-concept-P7WEDPK.jpg");
   height: 50%;
   width: auto;
   background-position: center;
